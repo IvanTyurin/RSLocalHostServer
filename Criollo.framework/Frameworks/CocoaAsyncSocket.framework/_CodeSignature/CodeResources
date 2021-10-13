@@ -4,47 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
-		<data>
-		bA2lS7u/R3751zxn6M0DoOD2JNk=
-		</data>
-		<key>Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
+		<key>Info.plist</key>
 		<data>
 		QF3xQs+kRIcesbNG3yI6M2dbFc8=
 		</data>
-		<key>Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources</key>
-		<data>
-		Z4NrfnNwtc5/hjF4qefJYB5a0VA=
-		</data>
-		<key>Info.plist</key>
-		<data>
-		Jqm+NAGdcHYNBzFXs8ORI0X1mbM=
-		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BEXYeCXMiM0dK13h1sCAAO55jIQmh731luD9Hzg3cKM=
-			</data>
-		</dict>
-		<key>Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OKtxsXfQgXu3e4pK1upljQNMqj/AT9De9SQw3/UKroc=
-			</data>
-		</dict>
-		<key>Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pZd75eXftP3yi4rccgwhtyGsUqkP2NfTF91rfguISqU=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>
