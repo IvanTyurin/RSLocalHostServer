@@ -1,0 +1,11 @@
+framework module RSLocalHostServer {
+  umbrella header "RSLocalHostServer.h"
+
+  export *
+  module * { export * }
+}
+
+module RSLocalHostServer.Swift {
+    header "RSLocalHostServer-Swift.h"
+    requires objc
+}
