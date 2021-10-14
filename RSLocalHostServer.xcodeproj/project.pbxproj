@@ -15,23 +15,14 @@
 		090B04C22717130600618D53 /* LocalhostRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B04BA2717130600618D53 /* LocalhostRouter.swift */; };
 		090B04C32717130600618D53 /* LocalhostPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B04BB2717130600618D53 /* LocalhostPort.swift */; };
 		090B04C42717130600618D53 /* LocalhostServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B04BC2717130600618D53 /* LocalhostServer.swift */; };
-		090B04E0271713F500618D53 /* Criollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B04DF271713D600618D53 /* Criollo.framework */; };
-		090B04E1271713F500618D53 /* Criollo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 090B04DF271713D600618D53 /* Criollo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		090B04E52717147500618D53 /* RSLocalHostServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B04E42717147500618D53 /* RSLocalHostServer.swift */; };
 		092AF1082717068200BB9F79 /* RSLocalHostServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 092AF1062717068200BB9F79 /* RSLocalHostServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		090B04DB271713D600618D53 /* PBXContainerItemProxy */ = {
+		090B04EE271804E500618D53 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 090B04D8271713D600618D53 /* Criollo.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = AD5FFFCB1BF0024D00A57FE9;
-			remoteInfo = "Criollo iOS";
-		};
-		090B04DE271713D600618D53 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 090B04D8271713D600618D53 /* Criollo.xcodeproj */;
+			containerPortal = 090B04E9271804E400618D53 /* Criollo.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = AD5FFFCC1BF0024D00A57FE9;
 			remoteInfo = "Criollo iOS";
@@ -45,7 +36,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				090B04E1271713F500618D53 /* Criollo.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,8 +51,8 @@
 		090B04BA2717130600618D53 /* LocalhostRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalhostRouter.swift; sourceTree = "<group>"; };
 		090B04BB2717130600618D53 /* LocalhostPort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalhostPort.swift; sourceTree = "<group>"; };
 		090B04BC2717130600618D53 /* LocalhostServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalhostServer.swift; sourceTree = "<group>"; };
-		090B04D8271713D600618D53 /* Criollo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Criollo.xcodeproj; path = /Users/ivantyurin/GitRepositories/Orion/RSLocalHostServer/RSLocalHostServer/Source/Criollo/Criollo.xcodeproj; sourceTree = "<absolute>"; };
 		090B04E42717147500618D53 /* RSLocalHostServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSLocalHostServer.swift; path = Source/RSLocalHostServer.swift; sourceTree = "<group>"; };
+		090B04E9271804E400618D53 /* Criollo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Criollo.xcodeproj; path = Source/Criollo/Criollo.xcodeproj; sourceTree = "<group>"; };
 		092AF1032717068200BB9F79 /* RSLocalHostServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSLocalHostServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		092AF1062717068200BB9F79 /* RSLocalHostServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSLocalHostServer.h; sourceTree = "<group>"; };
 		092AF1072717068200BB9F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090B04E0271713F500618D53 /* Criollo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,10 +116,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		090B04D9271713D600618D53 /* Products */ = {
+		090B04EA271804E400618D53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				090B04DF271713D600618D53 /* Criollo.framework */,
+				090B04EF271804E500618D53 /* Criollo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,7 +144,7 @@
 		092AF1052717068200BB9F79 /* RSLocalHostServer */ = {
 			isa = PBXGroup;
 			children = (
-				090B04D8271713D600618D53 /* Criollo.xcodeproj */,
+				090B04E9271804E400618D53 /* Criollo.xcodeproj */,
 				090B04B12717130600618D53 /* SwiftLocalhost */,
 				092AF1062717068200BB9F79 /* RSLocalHostServer.h */,
 				090B04E42717147500618D53 /* RSLocalHostServer.swift */,
@@ -191,7 +180,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				090B04DC271713D600618D53 /* PBXTargetDependency */,
 			);
 			name = RSLocalHostServer;
 			productName = RSLocalHostServer;
@@ -224,8 +212,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 090B04D9271713D600618D53 /* Products */;
-					ProjectRef = 090B04D8271713D600618D53 /* Criollo.xcodeproj */;
+					ProductGroup = 090B04EA271804E400618D53 /* Products */;
+					ProjectRef = 090B04E9271804E400618D53 /* Criollo.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -236,11 +224,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		090B04DF271713D600618D53 /* Criollo.framework */ = {
+		090B04EF271804E500618D53 /* Criollo.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Criollo.framework;
-			remoteRef = 090B04DE271713D600618D53 /* PBXContainerItemProxy */;
+			remoteRef = 090B04EE271804E500618D53 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -273,14 +261,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		090B04DC271713D600618D53 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Criollo iOS";
-			targetProxy = 090B04DB271713D600618D53 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		092AF1092717068200BB9F79 /* Debug */ = {

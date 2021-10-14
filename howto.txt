@@ -1,0 +1,22 @@
+cp -r Debug-iphoneos/CocoaAsyncSocket.framework Universal/
+cp -r Debug-iphoneos/Criollo.framework Universal/
+cp -r Debug-iphoneos/RSLocalHostServer.framework Universal/
+
+lipo -create \
+  Debug-iphoneos/CocoaAsyncSocket.framework/CocoaAsyncSocket \
+  Debug-iphonesimulator/CocoaAsyncSocket.framework/CocoaAsyncSocket \
+  -output Universal/CocoaAsyncSocket.framework/CocoaAsyncSocket
+
+lipo -create \
+  Debug-iphoneos/Criollo.framework/Criollo \
+  Debug-iphonesimulator/Criollo.framework/Criollo \
+  -output Universal/Criollo.framework/Criollo
+
+lipo -create \
+  Debug-iphoneos/RSLocalHostServer.framework/RSLocalHostServer \
+  Debug-iphonesimulator/RSLocalHostServer.framework/RSLocalHostServer \
+  -output Universal/RSLocalHostServer.framework/RSLocalHostServer
+
+cp -r \
+  Debug-iphonesimulator/RSLocalHostServer.framework/Modules/RSLocalHostServer.swiftmodule/* \
+  Universal/RSLocalHostServer.framework/Modules/RSLocalHostServer.swiftmodule/

@@ -11,7 +11,7 @@ import Criollo
 
 extension LocalhostServer: LocalhostRouter {
     
-    public func get(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
+    func get(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
         let method: String = "GET"
         self.setOverlayingRoute(method: method, path: path, routeBlock: routeBlock)
         self.server.get(path, block: {  [weak self] (req, res, next) in
@@ -25,7 +25,7 @@ extension LocalhostServer: LocalhostRouter {
         })
     }
     
-    public func post(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
+    func post(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
         let method: String = "POST"
         self.setOverlayingRoute(method: method, path: path, routeBlock: routeBlock)
         self.server.post(path, block: {  [weak self] (req, res, next) in
@@ -39,7 +39,7 @@ extension LocalhostServer: LocalhostRouter {
         })
     }
     
-    public func delete(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
+    func delete(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
         let method: String = "DELETE"
         self.setOverlayingRoute(method: method, path: path, routeBlock: routeBlock)
         self.server.delete(path, block: {  [weak self] (req, res, next) in
@@ -53,7 +53,7 @@ extension LocalhostServer: LocalhostRouter {
         })
     }
     
-    public func put(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
+    func put(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
         let method: String = "PUT"
         self.setOverlayingRoute(method: method, path: path, routeBlock: routeBlock)
         self.server.put(path, block: {  [weak self] (req, res, next) in
@@ -67,7 +67,7 @@ extension LocalhostServer: LocalhostRouter {
         })
     }
 
-    public func patch(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
+    func patch(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
         let method: String = "PATCH"
         self.setOverlayingRoute(method: method, path: path, routeBlock: routeBlock)
         self.server.add(path, block: {  [weak self] (req, res, next) in
@@ -81,7 +81,7 @@ extension LocalhostServer: LocalhostRouter {
         })
     }
 
-    public func head(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
+    func head(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
         let method: String = "HEAD"
         self.setOverlayingRoute(method: method, path: path, routeBlock: routeBlock)
         self.server.head(path, block: {  [weak self] (req, res, next) in
@@ -95,7 +95,7 @@ extension LocalhostServer: LocalhostRouter {
         })
     }
     
-    public func options(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
+    func options(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
         let method: String = "OPTIONS"
         self.setOverlayingRoute(method: method, path: path, routeBlock: routeBlock)
         self.server.options(path, block: {  [weak self] (req, res, next) in
@@ -109,11 +109,11 @@ extension LocalhostServer: LocalhostRouter {
         })
     }
     
-    public func startListening(){
+    func startListening(){
         self.server.startListening(nil, portNumber: self.portNumber)
     }
     
-    public func stopListening() {
+    func stopListening() {
         self.server.delegate = nil
         self.server.stopListening()
     }
@@ -121,21 +121,21 @@ extension LocalhostServer: LocalhostRouter {
 
 class LocalhostServer {
     
-    public let portNumber: UInt
+    let portNumber: UInt
     let server: CRHTTPServer
     
     var overlayingRoutes: [LocalhostServerMethodPath: [LocalhostServerRoute]]
     
-    public var recordedRequests: [URLRequest]
+    var recordedRequests: [URLRequest]
     
-    public required init(portNumber: UInt){
+    required init(portNumber: UInt){
         server = CRHTTPServer()
         self.portNumber = portNumber
         recordedRequests = [URLRequest]()
         overlayingRoutes = [LocalhostServerMethodPath: [LocalhostServerRoute]]()
     }
     
-    public static func initializeUsingRandomPortNumber() -> LocalhostServer{
+    static func initializeUsingRandomPortNumber() -> LocalhostServer{
         let availablePort: UInt = UInt(LocalhostPort.availablePortNumber())
         return LocalhostServer(portNumber: availablePort)
     }
@@ -168,7 +168,7 @@ class LocalhostServer {
         }
     }
     
-    public func route(method: LocalhostRequestMethod,
+    func route(method: LocalhostRequestMethod,
                       path: String,
                       responseData: Data,
                       statusCode: Int = 200,
@@ -272,7 +272,7 @@ struct LocalhostServerMethodPath: Hashable, Equatable {
         hasher.combine(path)
     }
     
-    public static func ==(lhs: LocalhostServerMethodPath, rhs: LocalhostServerMethodPath) -> Bool {
+    static func ==(lhs: LocalhostServerMethodPath, rhs: LocalhostServerMethodPath) -> Bool {
         guard lhs.method == rhs.method else { return false }
         guard lhs.path == rhs.path else { return false }
         return true
