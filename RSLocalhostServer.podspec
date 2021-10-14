@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RSLocalHostServer"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "Locahost framework."
   s.homepage     = "https://github.com/IvanTyurin/RSLocalHostServer.git"
   s.license      = "MIT"
