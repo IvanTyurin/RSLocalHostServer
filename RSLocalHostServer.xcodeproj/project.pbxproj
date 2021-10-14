@@ -16,6 +16,8 @@
 		090B04C32717130600618D53 /* LocalhostPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B04BB2717130600618D53 /* LocalhostPort.swift */; };
 		090B04C42717130600618D53 /* LocalhostServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B04BC2717130600618D53 /* LocalhostServer.swift */; };
 		090B04E52717147500618D53 /* RSLocalHostServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B04E42717147500618D53 /* RSLocalHostServer.swift */; };
+		090F95CE27185649000ABF51 /* Criollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090B04EF271804E500618D53 /* Criollo.framework */; };
+		090F95CF27185649000ABF51 /* Criollo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 090B04EF271804E500618D53 /* Criollo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		092AF1082717068200BB9F79 /* RSLocalHostServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 092AF1062717068200BB9F79 /* RSLocalHostServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -36,6 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				090F95CF27185649000ABF51 /* Criollo.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090F95CE27185649000ABF51 /* Criollo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
