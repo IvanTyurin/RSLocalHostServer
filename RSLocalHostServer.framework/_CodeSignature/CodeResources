@@ -4,6 +4,26 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/Criollo.framework/Criollo</key>
+		<data>
+		alG7pChMZgXmwCHdXKG8vaMeM74=
+		</data>
+		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
+		<data>
+		zSo6uxTaH70VVzpNlVrfSjFJ7I4=
+		</data>
+		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
+		<data>
+		7C2Fcaae9ZxEMRfSJrjU7cQd4S8=
+		</data>
+		<key>Frameworks/Criollo.framework/Info.plist</key>
+		<data>
+		kOni89piWTJWgLu2+wsPH+lQzJE=
+		</data>
+		<key>Frameworks/Criollo.framework/_CodeSignature/CodeResources</key>
+		<data>
+		mwHWa/Uyv7GY/XYsh24sG4vFdYY=
+		</data>
 		<key>Headers/RSLocalHostServer-Swift.h</key>
 		<data>
 		iM13drtgUsRK0DTu3Dg98QB2TGY=
@@ -55,6 +75,41 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/Criollo.framework/Criollo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/hmvnow04u8hl1YQADLlNohw/SlVf3VX9WhjfewXwko=
+			</data>
+		</dict>
+		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O5NRe+DumJcuunFK+VrVcnU1HCzRiQp1YDXueu4xdIE=
+			</data>
+		</dict>
+		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RY1BL+uoBOTR8QavWiyuNQ57C6BO41n8mz/mOcayZiQ=
+			</data>
+		</dict>
+		<key>Frameworks/Criollo.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1+Vz6rFRhEVpkz94ZWiRG3DYUjDXjahkm+mbOnEKD8c=
+			</data>
+		</dict>
+		<key>Frameworks/Criollo.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1qL0Gr9ZcN3ktrmNBL95EOClfvbnMPta5onYO/We9Ho=
+			</data>
+		</dict>
 		<key>Headers/RSLocalHostServer-Swift.h</key>
 		<dict>
 			<key>hash2</key>

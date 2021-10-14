@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RSLocalHostServer"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Locahost framework."
   s.homepage     = "https://github.com/IvanTyurin/RSLocalHostServer.git"
   s.license      = "MIT"
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/IvanTyurin/RSLocalHostServer.git", :tag => s.version.to_s, :submodules => true }
 
   s.source_files = 'RSLocalHostServer/RSLocalHostServer.h'
-  s.vendored_frameworks  = 'RSLocalHostServer.framework', 'Criollo.framework', 'CocoaAsyncSocket.framework'
-  #s.frameworks = 'Criollo', 'CocoaAsyncSocket'
+  s.vendored_frameworks  = 'RSLocalHostServer.framework'
+  s.frameworks = 'Criollo', 'CocoaAsyncSocket'
 end
