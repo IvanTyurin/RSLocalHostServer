@@ -6,31 +6,31 @@
 	<dict>
 		<key>Frameworks/Criollo.framework/Criollo</key>
 		<data>
-		CCbJHGRaBn112D3R6GR0TAyhlx8=
+		HN1uH+jHLnwOCGAGC9RVryTIsQA=
 		</data>
 		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
 		<data>
-		PbP4gdj5bd/pQzZzlkHd5w7xQQA=
+		6lrHFXiO3OMx+2ltjbMu46ACFJk=
 		</data>
 		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
 		<data>
-		QF3xQs+kRIcesbNG3yI6M2dbFc8=
+		1RLIdI5jMl4w4T7+5YjsqF1JeEQ=
 		</data>
 		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Z4NrfnNwtc5/hjF4qefJYB5a0VA=
+		/sNjtSevs2gSiQLxnAHaevfIkd8=
 		</data>
 		<key>Frameworks/Criollo.framework/Info.plist</key>
 		<data>
-		Jqm+NAGdcHYNBzFXs8ORI0X1mbM=
+		mql4W95NugMXVDkI7fTvatDS4a0=
 		</data>
 		<key>Frameworks/Criollo.framework/_CodeSignature/CodeResources</key>
 		<data>
-		f2wb+ugjnEdwWLYCJmkxbESlLGg=
+		vmuymy/HU047z8geMwjrDANeUws=
 		</data>
 		<key>Headers/RSLocalHostServer-Swift.h</key>
 		<data>
-		wfL6DS7sh5jci0XfG/RAz5u6eOw=
+		bsAV6C9Y6fCqIWqJ3D784Z29xGo=
 		</data>
 		<key>Headers/RSLocalHostServer.h</key>
 		<data>
@@ -38,39 +38,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VMJZAyv8+Y+AepjWa/PqwCFWMfk=
+		4GTryWr7QLzD9OT+Fu3CrV798OY=
 		</data>
 		<key>Modules/RSLocalHostServer.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		2bUGKOBWZjCSKc1Zkkli9MF2j0I=
+		J2zd1S8oAa+CsSw+wRqvuhwpooE=
 		</data>
 		<key>Modules/RSLocalHostServer.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		2bUGKOBWZjCSKc1Zkkli9MF2j0I=
+		J2zd1S8oAa+CsSw+wRqvuhwpooE=
 		</data>
 		<key>Modules/RSLocalHostServer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		XiubqiGZ189q0NkF34fYP1cZABE=
+		hwMdrqU9mD9GfBQZmRFlZq4PbNc=
 		</data>
 		<key>Modules/RSLocalHostServer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5BAQ+MuEoJI4xikBAJT4xDhLsr0=
+		SnxjDm4J9QxJKEtwgsBc6qE6bM4=
 		</data>
 		<key>Modules/RSLocalHostServer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hZknbLgvy5FVxe5XDtr+4e4oaa8=
+		e5dwSqfWqsPrW4gnekoe1Y+pZi8=
 		</data>
 		<key>Modules/RSLocalHostServer.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		XiubqiGZ189q0NkF34fYP1cZABE=
+		hwMdrqU9mD9GfBQZmRFlZq4PbNc=
 		</data>
 		<key>Modules/RSLocalHostServer.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		5BAQ+MuEoJI4xikBAJT4xDhLsr0=
+		SnxjDm4J9QxJKEtwgsBc6qE6bM4=
 		</data>
 		<key>Modules/RSLocalHostServer.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		hZknbLgvy5FVxe5XDtr+4e4oaa8=
+		e5dwSqfWqsPrW4gnekoe1Y+pZi8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,49 +83,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iGZe8yHCkAQT5ZFBd8ame5vpIV9hkDEJ3aLmh+eZn20=
+			/5BiSc/3qD+R/38qAZCV8K6SbnNNSIlzBOf5JpGVASo=
 			</data>
 		</dict>
 		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NF5tqvu+v1gQpZ+GaW/BSJefmIHMicDQ4GmsAzQxjIY=
+			Fgpx6JZJQunlGlSWUJ/jCcAQo1mUAk3XIjDmrdTnsVo=
 			</data>
 		</dict>
 		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OKtxsXfQgXu3e4pK1upljQNMqj/AT9De9SQw3/UKroc=
+			h0yCIx1r+3C6ZbogdV2SY7tBrZHLmARb8BuEV6onEXg=
 			</data>
 		</dict>
 		<key>Frameworks/Criollo.framework/Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pZd75eXftP3yi4rccgwhtyGsUqkP2NfTF91rfguISqU=
+			NsQT2mMkGXau59QXkLJOpXFXup76k92pnTbHEB8o5xg=
 			</data>
 		</dict>
 		<key>Frameworks/Criollo.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XcnR1jpDVfJLoyvWuvJvU3oUInmAvuMk7n1lpFfv4iY=
+			+/5g2qowNH77cxJxj88wl6eI0fJ8VvjjMb5Ub1nB/BI=
 			</data>
 		</dict>
 		<key>Frameworks/Criollo.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2iWT+2gQQ1XmCSdWolHO2TPpD3qzb3AVFIQx0qMrzEk=
+			EMhA9PFB2tpka7RdztP93510YbffeSZPKEHgsH9TQSQ=
 			</data>
 		</dict>
 		<key>Headers/RSLocalHostServer-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BWycEjH5Uo2jXXdzayEpZDOGB9QF6c88i2m3Uk+l+uY=
+			xZMfvfo77z1Z2gC85eVSxxRwIdfmtrBfMnS/Zre16vc=
 			</data>
 		</dict>
 		<key>Headers/RSLocalHostServer.h</key>
@@ -139,56 +139,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nWqjoX/ySGT0Of67ApamFZYjPamNwzGt5oNz8ohmE1E=
+			Q3lfwdTo+khT+K3148uwOwKxIHcAeJ7DNFVBKPY5O2k=
 			</data>
 		</dict>
 		<key>Modules/RSLocalHostServer.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nWqjoX/ySGT0Of67ApamFZYjPamNwzGt5oNz8ohmE1E=
+			Q3lfwdTo+khT+K3148uwOwKxIHcAeJ7DNFVBKPY5O2k=
 			</data>
 		</dict>
 		<key>Modules/RSLocalHostServer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F7MioIPAiXSQjSvKq3knwyr3a6+OC5TwJJ0m1drMToQ=
+			fFvaLFa+//lL6/QQfncpUCLw58jTGkoLNoey4rhLGU0=
 			</data>
 		</dict>
 		<key>Modules/RSLocalHostServer.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1EtHEjnwLu9w7CWoxfqtLUmLsU95xWyjE56uop8gXyc=
+			kVG7nVt09VcO97mdL43M8KLCI2yDO0I330GwgU29GCg=
 			</data>
 		</dict>
 		<key>Modules/RSLocalHostServer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6MowFcvOO0Izf6j5MykY+uwfBjb/ZO5I0R1eb5uvefI=
+			qrwzuvln9M4qtz035PONwvFbbFp7g0UDt1hTv/goaJY=
 			</data>
 		</dict>
 		<key>Modules/RSLocalHostServer.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F7MioIPAiXSQjSvKq3knwyr3a6+OC5TwJJ0m1drMToQ=
+			fFvaLFa+//lL6/QQfncpUCLw58jTGkoLNoey4rhLGU0=
 			</data>
 		</dict>
 		<key>Modules/RSLocalHostServer.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1EtHEjnwLu9w7CWoxfqtLUmLsU95xWyjE56uop8gXyc=
+			kVG7nVt09VcO97mdL43M8KLCI2yDO0I330GwgU29GCg=
 			</data>
 		</dict>
 		<key>Modules/RSLocalHostServer.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6MowFcvOO0Izf6j5MykY+uwfBjb/ZO5I0R1eb5uvefI=
+			qrwzuvln9M4qtz035PONwvFbbFp7g0UDt1hTv/goaJY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
