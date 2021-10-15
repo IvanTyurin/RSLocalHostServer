@@ -1,0 +1,41 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LocalHostServer
+import Criollo
+import Foundation
+@_exported import LocalHostServer
+import Swift
+public enum LocalhostRequestMethod {
+  case GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS
+  public static func == (a: LocalHostServer.LocalhostRequestMethod, b: LocalHostServer.LocalhostRequestMethod) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class LocalHostServer {
+  required public init(portNumber: Swift.UInt)
+  public func startListening()
+  public func stopListening()
+  public func route(method: LocalHostServer.LocalhostRequestMethod, path: Swift.String, responseData: Foundation.Data, statusCode: Swift.Int = 200, responseHeaderFields: [Swift.String : Swift.String]? = nil)
+  @objc deinit
+}
+public protocol LocalhostRouter {
+  init(portNumber: Swift.UInt)
+  func get(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LocalHostServer.LocalhostServerResponse?))
+  func post(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LocalHostServer.LocalhostServerResponse?))
+  func delete(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LocalHostServer.LocalhostServerResponse?))
+  func put(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LocalHostServer.LocalhostServerResponse?))
+  func patch(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LocalHostServer.LocalhostServerResponse?))
+  func head(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LocalHostServer.LocalhostServerResponse?))
+  func options(_ path: Swift.String, routeBlock: @escaping ((Foundation.URLRequest) -> LocalHostServer.LocalhostServerResponse?))
+  func startListening()
+  func stopListening()
+}
+public struct LocalhostServerResponse {
+  public let httpUrlResponse: Foundation.HTTPURLResponse
+  public let data: Any?
+  public init(httpUrlResponse: Foundation.HTTPURLResponse, data: Any? = nil)
+}
+extension LocalHostServer.LocalhostRequestMethod : Swift.Equatable {}
+extension LocalHostServer.LocalhostRequestMethod : Swift.Hashable {}

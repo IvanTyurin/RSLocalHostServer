@@ -1,0 +1,11 @@
+framework module LocalHostServer {
+  umbrella header "LocalHostServer.h"
+
+  export *
+  module * { export * }
+}
+
+module LocalHostServer.Swift {
+    header "LocalHostServer-Swift.h"
+    requires objc
+}
