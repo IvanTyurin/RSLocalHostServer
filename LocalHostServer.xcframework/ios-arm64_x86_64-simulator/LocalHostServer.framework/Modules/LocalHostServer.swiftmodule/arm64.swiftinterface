@@ -13,7 +13,7 @@ public enum LocalhostRequestMethod {
     get
   }
 }
-public class LocalHostServer {
+public class RSLocalHostServer {
   required public init(portNumber: Swift.UInt)
   public func startListening()
   public func stopListening()

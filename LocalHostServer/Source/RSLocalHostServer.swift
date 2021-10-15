@@ -1,5 +1,5 @@
 //
-//  LocalHostServer.swift
+//  RSLocalHostServer.swift
 //  POSUITests
 //
 //  Created by Ivan Tyurin on 13.10.2021.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class LocalHostServer {
+public class RSLocalHostServer {
     let server: LocalhostServer
     
     public required init(portNumber: UInt) {
