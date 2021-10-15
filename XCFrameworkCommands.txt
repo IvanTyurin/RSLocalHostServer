@@ -1,0 +1,38 @@
+cd  /Users/ivantyurin/GitRepositories/Orion/RSLocalHostServer
+
+xcodebuild archive \
+ -scheme LocalHostServer \
+ -archivePath ~/Desktop/LocalHostServer-iphonesimulator.xcarchive  \
+ -sdk iphonesimulator \
+ SKIP_INSTALL=NO \
+ BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+
+cd LocalHostServer/Source/Criollo
+
+xcodebuild archive \
+ -scheme 'Criollo iOS'\
+ -archivePath ~/Desktop/Criollo-iphonesimulator.xcarchive  \
+ -sdk iphonesimulator \
+ SKIP_INSTALL=NO \
+ BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+
+cd Libraries/CocoaAsyncSocket
+
+xcodebuild archive \
+ -scheme 'iOS CocoaAsyncSocket'\
+ -archivePath ~/Desktop/CocoaAsyncSocket-iphonesimulator.xcarchive  \
+ -sdk iphonesimulator \
+ SKIP_INSTALL=NO \
+ BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+
+xcodebuild -create-xcframework \
+ -framework ~/Desktop/LocalHostServer-iphonesimulator.xcarchive/Products/Library/Frameworks/LocalHostServer.framework \
+ -output ~/Desktop/LocalHostServer.xcframework
+
+xcodebuild -create-xcframework \
+ -framework ~/Desktop/Criollo-iphonesimulator.xcarchive/Products/Library/Frameworks/Criollo.framework \
+ -output ~/Desktop/Criollo.xcframework
+
+xcodebuild -create-xcframework \
+ -framework ~/Desktop/CocoaAsyncSocket-iphonesimulator.xcarchive/Products/Library/Frameworks/CocoaAsyncSocket.framework \
+ -output ~/Desktop/CocoaAsyncSocket.xcframework
